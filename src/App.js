@@ -5,7 +5,7 @@ import ArrayVisualization from "./components/visualizations/Array";
 import Searching from "./components/visualizations/searching";
 import Sorting from "./components/visualizations/sorting";
 import Graph from "./components/visualizations/Graph";
-import Tree from "./components/visualizations/Tree";
+import Tree from "./components/visualizations/tree";
 import Stack from "./components/visualizations/stack";
 import Queue from "./components/visualizations/Queue";
 import Linked from "./components/visualizations/Linkedlist";
