@@ -7,7 +7,7 @@ import Sorting from "./components/visualizations/sorting";
 import Graph from "./components/visualizations/Graph";
 import Tree from "./components/visualizations/tree";
 import Stack from "./components/visualizations/stack";
-import Queue from "./components/visualizations/Queue";
+import Queue from "./components/visualizations/queue";
 import Linked from "./components/visualizations/Linkedlist";
 
 
