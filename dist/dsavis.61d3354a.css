@@ -93,7 +93,6 @@
     --spacing: .25rem;
     --container-3xl: 48rem;
     --container-4xl: 56rem;
-    --container-6xl: 72rem;
     --text-xs: .75rem;
     --text-xs--line-height: calc(1 / .75);
     --text-sm: .875rem;
@@ -111,7 +110,6 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
-    --tracking-wider: .05em;
     --leading-normal: 1.5;
     --leading-relaxed: 1.625;
     --radius-md: .375rem;
@@ -404,20 +402,8 @@
     top: calc(var(--spacing) * 0);
   }
 
-  .right-0 {
-    right: calc(var(--spacing) * 0);
-  }
-
   .-bottom-6 {
     bottom: calc(var(--spacing) * -6);
-  }
-
-  .bottom-4 {
-    bottom: calc(var(--spacing) * 4);
-  }
-
-  .left-0 {
-    left: calc(var(--spacing) * 0);
   }
 
   .z-50 {
@@ -492,10 +478,6 @@
     margin-top: calc(var(--spacing) * 20);
   }
 
-  .mr-2 {
-    margin-right: calc(var(--spacing) * 2);
-  }
-
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
@@ -544,10 +526,6 @@
     display: table;
   }
 
-  .h-4 {
-    height: calc(var(--spacing) * 4);
-  }
-
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
@@ -590,10 +568,6 @@
 
   .min-h-screen {
     min-height: 100vh;
-  }
-
-  .w-4 {
-    width: calc(var(--spacing) * 4);
   }
 
   .w-5 {

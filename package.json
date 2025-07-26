@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "learning",
   "scripts": {
+    "vercel-build": "chmod +x node_modules/.bin/react-scripts && react-scripts build",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
