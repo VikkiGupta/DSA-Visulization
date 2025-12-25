@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
 import { VisualizationPanel, ComplexityInfo } from "./SharedVisualizer";
-import ThemeToggleButton from "../home/Themetoggle";
+
 
 const sortingAlgorithms = ["Bubble Sort", "Insertion Sort", "Selection Sort"];
 
@@ -132,7 +132,6 @@ const Sorting= () => {
           >
             Home
           </Link>
-          <ThemeToggleButton />
         </nav>
       </header>
 

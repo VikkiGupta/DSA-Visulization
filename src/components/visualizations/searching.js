@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
 import { VisualizationPanel, ComplexityInfo } from "./SharedVisualizer";
-import ThemeToggleButton from "../home/Themetoggle";
 
 const searchingAlgorithms = ["Linear Search", "Binary Search"];
 
@@ -118,7 +117,6 @@ const Searching = () => {
           >
             Home
           </Link>
-          <ThemeToggleButton />
         </nav>
       </header>
 

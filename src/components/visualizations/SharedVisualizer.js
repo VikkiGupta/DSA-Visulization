@@ -1,112 +1,142 @@
 import React from "react";
 
+// --- VISUALIZATION PANEL COMPONENT ---
 export const VisualizationPanel = ({ 
   array, 
   activeIndices, 
   completedIndices, 
   algorithm, 
   target, 
-  isSorting,
   speed 
 }) => {
   return (
-    <div className="w-full flex flex-col">
-      <div className="bg-gray-800 p-6 rounded-2xl shadow-lg h-full flex flex-col">
-        <h2 className="text-2xl font-bold text-amber-300 mb-2">
-          Visualization Panel
-        </h2>
-        
-        <div className="mb-4 flex justify-between items-center">
-          <div>
-            {algorithm && (
-              <p className="text-gray-400">
-                Current: {algorithm} {target && `(Target: ${target})`}
-              </p>
-            )}
-          </div>
-          {array.length > 0 && (
-            <div className="text-sm bg-gray-700 px-3 py-1 rounded-full">
-              {array.length} elements
-            </div>
+    // flex-1 and min-h-0 are the "magic" that prevents the scrollbar
+    <div className="flex flex-col flex-1 min-h-0 bg-gray-800 p-4 rounded-2xl shadow-lg border border-gray-700">
+      <div className="flex justify-between items-center mb-2">
+        <h2 className="text-xl font-bold text-amber-300">Visualization</h2>
+        <div className="flex gap-4 items-center">
+          {algorithm && (
+            <p className="text-xs text-gray-400">
+              {algorithm} {target && `(Target: ${target})`}
+            </p>
           )}
+          <span className="text-[10px] bg-gray-700 px-2 py-0.5 rounded text-gray-300">
+            {array.length} Elements
+          </span>
         </div>
-        
-        <div className="flex-1 flex flex-col justify-center">
-          {array.length === 0 ? (
-            <div className="text-center py-12 bg-gray-700 rounded-lg">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-gray-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <h3 className="text-xl font-medium text-gray-400 mb-2">No data to visualize</h3>
-              <p className="text-gray-500">Configure your settings and click Simulate to begin</p>
-            </div>
-          ) : (
-            <div className="relative">
-              <div className="flex flex-wrap justify-center gap-3 bg-gray-700 p-6 rounded-lg min-h-[400px] items-end">
-                {array.map((val, idx) => (
+      </div>
+      
+      {/* Visual Area */}
+      <div className="flex-1 bg-gray-900/40 rounded-xl p-4 flex flex-col justify-end min-h-0 border border-gray-700/50">
+        {array.length === 0 ? (
+          <div className="h-full flex items-center justify-center text-gray-500 italic text-sm">
+            No data to visualize. Configure and click Simulate.
+          </div>
+        ) : (
+          <div className="flex items-end justify-center gap-1 h-full w-full overflow-hidden">
+            {array.map((val, idx) => {
+              const maxVal = Math.max(...array, 1);
+              return (
+                <div
+                  key={idx}
+                  className="flex flex-col items-center"
+                  style={{
+                    width: `${100 / array.length}%`,
+                    maxWidth: "45px",
+                    height: "100%",
+                    justifyContent: "flex-end"
+                  }}
+                >
                   <div
-                    key={idx}
-                    className={`flex flex-col items-center transition-all duration-300 ${
-                      activeIndices.includes(idx)
-                        ? "transform scale-110" 
-                        : ""
+                    className={`w-full rounded-t-sm transition-all duration-200 ${
+                      activeIndices.includes(idx) ? "bg-red-400 shadow-[0_0_10px_rgba(248,113,113,0.4)]" : 
+                      completedIndices.includes(idx) ? "bg-green-400" : "bg-amber-400"
                     }`}
                     style={{
-                      height: `${val * 3}px`,
-                      minHeight: "30px",
-                      width: `${Math.max(30, 100 / array.length)}px`,
-                      transition: `height ${speed/1000}s ease, background-color 0.3s ease`
+                      // Scale relative to 85% of container height to leave room for labels
+                      height: `${(val / maxVal) * 85}%`, 
+                      transition: `height ${speed/1000}s ease`
                     }}
-                  >
-                    <div
-                      className={`w-full rounded-t-md flex items-end justify-center font-bold text-xs ${
-                        activeIndices.includes(idx)
-                          ? "bg-red-400"
-                          : completedIndices.includes(idx)
-                            ? "bg-green-400"
-                            : "bg-amber-400"
-                      }`}
-                      style={{
-                        height: "100%"
-                      }}
-                    >
-                      <span className="absolute -bottom-6 text-white">{val}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
+                  />
+                  <span className="text-[10px] text-gray-300 mt-1 font-mono">{val}</span>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );
 };
 
+// --- COMPLEXITY INFO COMPONENT ---
 export const ComplexityInfo = ({ type }) => {
-  const sortingComplexities = [
-    { name: "Bubble Sort", time: "O(n²)", space: "O(1)" },
-    { name: "Selection Sort", time: "O(n²)", space: "O(1)" },
-    { name: "Insertion Sort", time: "O(n²)", space: "O(1)" }
-  ];
-
-  const searchingComplexities = [
-    { name: "Linear Search", time: "O(n)", space: "O(1)" },
-    { name: "Binary Search", time: "O(log n)", space: "O(1)" }
-  ];
-
-  const complexities = type === "sorting" ? sortingComplexities : searchingComplexities;
+  const complexities = type === "sorting" 
+    ? [
+        { name: "Bubble Sort", time: "O(n²)", space: "O(1)" },
+        { name: "Selection Sort", time: "O(n²)", space: "O(1)" },
+        { name: "Insertion Sort", time: "O(n²)", space: "O(1)" }
+      ]
+    : [
+        { name: "Linear Search", time: "O(n)", space: "O(1)" },
+        { name: "Binary Search", time: "O(log n)", space: "O(1)" }
+      ];
 
   return (
-    <div className="mt-4 bg-gray-800 p-4 rounded-2xl shadow-lg">
-      <h3 className="text-lg font-semibold text-amber-300 mb-2">Algorithm Complexity</h3>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="mt-3 bg-gray-800 p-3 rounded-2xl border border-gray-700">
+      <h3 className="text-[10px] font-bold text-amber-300 mb-2 uppercase tracking-widest opacity-80">
+        Algorithm Complexity
+      </h3>
+      <div className="grid grid-cols-3 gap-3">
         {complexities.map((algo, index) => (
-          <div key={index} className="bg-gray-700 p-3 rounded-lg">
-            <h4 className="font-medium mb-1">{algo.name}</h4>
-            <p className="text-sm text-gray-400">Time: {algo.time} | Space: {algo.space}</p>
+          <div key={index} className="bg-gray-700/30 p-2 rounded-lg border border-gray-600/50">
+            <h4 className="text-xs font-bold text-gray-100 truncate">{algo.name}</h4>
+            <div className="flex flex-col mt-1">
+              <span className="text-[10px] text-gray-400">Time: <span className="text-amber-200/80">{algo.time}</span></span>
+              <span className="text-[10px] text-gray-400">Space: <span className="text-amber-200/80">{algo.space}</span></span>
+            </div>
           </div>
         ))}
+      </div>
+    </div>
+  );
+};
+
+// --- RECOMMENDED PAGE LAYOUT WRAPPER ---
+/* Use this structure in your main page file to ensure the 
+  "No-Scroll" behavior works correctly.
+*/
+export const MainLayout = () => {
+  return (
+    <div className="h-screen w-full flex flex-col bg-gray-900 text-white overflow-hidden p-4">
+      {/* Header Area */}
+      <header className="flex justify-between items-center h-10 mb-4 shrink-0">
+        <h1 className="text-2xl font-bold tracking-tight">DSA Visualization</h1>
+        <button className="text-sm font-medium hover:text-amber-300">Home</button>
+      </header>
+
+      {/* Main Body */}
+      <div className="flex flex-1 gap-6 min-h-0 overflow-hidden">
+        {/* Left Sidebar (Controls) */}
+        <aside className="w-80 flex flex-col gap-4 overflow-y-auto pr-2 custom-scrollbar shrink-0">
+          <div className="bg-gray-800 p-4 rounded-2xl border border-gray-700">
+             {/* Put your Sidebar content/inputs here */}
+             <h3 className="text-lg font-bold text-amber-300 mb-4">Sorting Visualizer</h3>
+             <p className="text-xs text-gray-400 leading-relaxed">Visualize how sorting algorithms work with interactive animations.</p>
+          </div>
+          {/* Add other Sidebar sections here */}
+        </aside>
+
+        {/* Right Section (Visualization + Complexity) */}
+        <main className="flex-1 flex flex-col min-h-0">
+           <VisualizationPanel 
+              array={[10, 20, 30, 40, 50]} 
+              activeIndices={[]} 
+              completedIndices={[]} 
+              speed={500}
+           />
+           <ComplexityInfo type="sorting" />
+        </main>
       </div>
     </div>
   );

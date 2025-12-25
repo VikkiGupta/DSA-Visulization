@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import ThemeToggleButton from "./Themetoggle";
 import Tool from "./Tools";
 import Footer from "./footer";
 
@@ -30,7 +29,6 @@ function Home() {
           >
             Tools
           </button>
-          <ThemeToggleButton />
         </nav>
       </header>
 

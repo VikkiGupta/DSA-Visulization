@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router";
-import Home from "./components/home/home";
+import Home from "./components/Home/home";
 import ArrayVisualization from "./components/visualizations/Array";
 import Searching from "./components/visualizations/searching";
 import Sorting from "./components/visualizations/sorting";

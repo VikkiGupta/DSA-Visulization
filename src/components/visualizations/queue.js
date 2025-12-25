@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router";
-import ThemeToggleButton from "../home/Themetoggle";
 
 const Queue = () => {
   return (
@@ -15,7 +14,6 @@ const Queue = () => {
           >
             Home
           </Link>
-          <ThemeToggleButton />
         </nav>
       </header>
 

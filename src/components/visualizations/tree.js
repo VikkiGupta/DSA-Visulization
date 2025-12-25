@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router";
-import ThemeToggleButton from "../home/Themetoggle";
 
 const Tree= () => {
   return (
@@ -15,7 +14,6 @@ const Tree= () => {
           >
             Home
           </Link>
-          <ThemeToggleButton />
         </nav>
       </header>
 
