@@ -14,7 +14,6 @@ const Graph = () => {
           >
             Home
           </Link>
-          <ThemeToggleButton />
         </nav>
       </header>
 

@@ -14,7 +14,6 @@ const ArrayVisualization = () => {
           >
             Home
           </Link>
-          <ThemeToggleButton />
         </nav>
       </header>
 
