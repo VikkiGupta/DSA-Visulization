@@ -16113,7 +16113,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-var _home = require("./components/home/home");
+var _home = require("./components/Home/home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _array = require("./components/visualizations/Array");
 var _arrayDefault = parcelHelpers.interopDefault(_array);
@@ -16265,7 +16265,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./components/home/home":"JIZEz","./components/visualizations/Array":"9gpvy","./components/visualizations/searching":"5JNTA","./components/visualizations/sorting":"8wd8o","./components/visualizations/Graph":"3m4Y0","./components/visualizations/tree":"6glai","./components/visualizations/stack":"1Gntg","./components/visualizations/queue":"87ftF","./components/visualizations/Linkedlist":"21lqJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2jawN":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./components/Home/home":"iO5CC","./components/visualizations/Array":"9gpvy","./components/visualizations/searching":"5JNTA","./components/visualizations/sorting":"8wd8o","./components/visualizations/Graph":"3m4Y0","./components/visualizations/tree":"6glai","./components/visualizations/stack":"1Gntg","./components/visualizations/queue":"87ftF","./components/visualizations/Linkedlist":"21lqJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2jawN":[function(require,module,exports,__globalThis) {
 /**
  * react-router v7.6.3
  *
@@ -26126,12 +26126,12 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"JIZEz":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$0ab7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$0ab7.init();
+},{}],"iO5CC":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$553d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$553d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0ab7.prelude(module);
+$parcel$ReactRefreshHelpers$553d.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -26139,8 +26139,6 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _themetoggle = require("./Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 var _tools = require("./Tools");
 var _toolsDefault = parcelHelpers.interopDefault(_tools);
 var _footer = require("./footer");
@@ -26167,8 +26165,8 @@ function Home() {
                                 className: "font-bold text-2xl",
                                 children: "DSA Visualization"
                             }, void 0, false, {
-                                fileName: "src/components/home/home.js",
-                                lineNumber: 19,
+                                fileName: "src/components/Home/home.js",
+                                lineNumber: 18,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
@@ -26179,8 +26177,8 @@ function Home() {
                                         className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
                                         children: "Home"
                                     }, void 0, false, {
-                                        fileName: "src/components/home/home.js",
-                                        lineNumber: 21,
+                                        fileName: "src/components/Home/home.js",
+                                        lineNumber: 20,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -26188,25 +26186,20 @@ function Home() {
                                         className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
                                         children: "Tools"
                                     }, void 0, false, {
-                                        fileName: "src/components/home/home.js",
-                                        lineNumber: 27,
-                                        columnNumber: 11
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                        fileName: "src/components/home/home.js",
-                                        lineNumber: 33,
+                                        fileName: "src/components/Home/home.js",
+                                        lineNumber: 26,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "src/components/home/home.js",
-                                lineNumber: 20,
+                                fileName: "src/components/Home/home.js",
+                                lineNumber: 19,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "src/components/home/home.js",
-                        lineNumber: 18,
+                        fileName: "src/components/Home/home.js",
+                        lineNumber: 17,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -26219,63 +26212,63 @@ function Home() {
                                     className: "text-3xl sm:text-4xl font-bold text-amber-400 mb-4",
                                     children: "Welcome to our DSA Visualization Tools"
                                 }, void 0, false, {
-                                    fileName: "src/components/home/home.js",
-                                    lineNumber: 43,
+                                    fileName: "src/components/Home/home.js",
+                                    lineNumber: 41,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     className: "text-lg sm:text-xl text-gray-300 leading-relaxed",
                                     children: "Explore and interactively learn Data Structures and Algorithms through powerful visualizations and intuitive interfaces designed for better understanding."
                                 }, void 0, false, {
-                                    fileName: "src/components/home/home.js",
-                                    lineNumber: 46,
+                                    fileName: "src/components/Home/home.js",
+                                    lineNumber: 44,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "src/components/home/home.js",
-                            lineNumber: 42,
+                            fileName: "src/components/Home/home.js",
+                            lineNumber: 40,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/components/home/home.js",
-                        lineNumber: 38,
+                        fileName: "src/components/Home/home.js",
+                        lineNumber: 36,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                         ref: toolsRef,
                         className: "pt-24 px-6",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toolsDefault.default), {}, void 0, false, {
-                            fileName: "src/components/home/home.js",
-                            lineNumber: 55,
+                            fileName: "src/components/Home/home.js",
+                            lineNumber: 53,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
-                        fileName: "src/components/home/home.js",
-                        lineNumber: 54,
+                        fileName: "src/components/Home/home.js",
+                        lineNumber: 52,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/components/home/home.js",
-                lineNumber: 16,
+                fileName: "src/components/Home/home.js",
+                lineNumber: 15,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
-                    fileName: "src/components/home/home.js",
-                    lineNumber: 59,
+                    fileName: "src/components/Home/home.js",
+                    lineNumber: 57,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
-                fileName: "src/components/home/home.js",
-                lineNumber: 58,
+                fileName: "src/components/Home/home.js",
+                lineNumber: 56,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
-        fileName: "src/components/home/home.js",
-        lineNumber: 15,
+        fileName: "src/components/Home/home.js",
+        lineNumber: 14,
         columnNumber: 5
     }, this);
 }
@@ -26285,17 +26278,17 @@ exports.default = Home;
 var _c;
 $RefreshReg$(_c, "Home");
 
-  $parcel$ReactRefreshHelpers$0ab7.postlude(module);
+  $parcel$ReactRefreshHelpers$553d.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Themetoggle":"jdoi2","./Tools":"hqHzT","./footer":"kwteh","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jdoi2":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$d173 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$d173.init();
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Tools":"lKp9V","./footer":"kJmo7","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lKp9V":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$4371 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$4371.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$d173.prelude(module);
+$parcel$ReactRefreshHelpers$4371.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -26303,49 +26296,129 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-function ThemeToggleButton() {
-    _s();
-    const [darkMode, setDarkMode] = (0, _react.useState)(false);
-    (0, _react.useEffect)(()=>{
-        document.documentElement.classList.toggle("dark", darkMode);
-    }, [
-        darkMode
-    ]);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-        onClick: ()=>setDarkMode(!darkMode),
-        className: "text-xl p-2 rounded bg-gray-200 dark:bg-gray-800",
-        children: darkMode ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-            className: "fas fa-sun text-yellow-400"
-        }, void 0, false, {
-            fileName: "src/components/home/Themetoggle.js",
-            lineNumber: 16,
-            columnNumber: 9
-        }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-            className: "fas fa-moon text-gray-800"
-        }, void 0, false, {
-            fileName: "src/components/home/Themetoggle.js",
-            lineNumber: 18,
-            columnNumber: 9
+var _reactRouter = require("react-router");
+const dataStructures = [
+    {
+        name: "Sorting",
+        tag: "Sorting Algorithms",
+        path: "/sorting",
+        image: "	https://dsavisualization.com/static/media/sorts.facf86ca90c2983f82d2.webp"
+    },
+    {
+        name: "Searching",
+        tag: "Searching Algorithms",
+        path: "/searching",
+        image: "https://dsavisualization.com/static/media/searching.b32766908a75e93ec43d.webp"
+    },
+    {
+        name: "Array",
+        tag: "Arrays",
+        path: "/array",
+        image: "https://dsavisualization.com/static/media/arrays.3a7b139d496811eb2dbf.webp"
+    },
+    {
+        name: "Linked List",
+        tag: "Linked Lists",
+        path: "/linkedlist",
+        image: "https://dsavisualization.com/static/media/linkedlists.aedfc9c27769b3b54f93.webp"
+    },
+    {
+        name: "Stack",
+        tag: "Stacks",
+        path: "/stack",
+        image: "https://dsavisualization.com/static/media/stack.4d8d5f7066e06a0867f7.webp"
+    },
+    {
+        name: "Queue",
+        tag: "Queues",
+        path: "/queue",
+        image: "https://dsavisualization.com/static/media/queue.0891dd468993135c5685.webp"
+    },
+    {
+        name: "Tree",
+        tag: "Trees",
+        path: "/tree",
+        image: "https://dsavisualization.com/static/media/trees.11c2a6e680cca61793a0.webp"
+    },
+    {
+        name: "Graph",
+        tag: "Graphs",
+        path: "/graph",
+        image: "https://dsavisualization.com/static/media/graphs.70ba8e9e76697a49c82c.webp"
+    }
+];
+function VisualizationCard({ element }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+        to: element.path,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition duration-300 ease-in-out text-center w-full h-[300] flex flex-col items-center",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: element.image,
+                    alt: element.name,
+                    className: "object-cover h-[200]"
+                }, void 0, false, {
+                    fileName: "src/components/Home/Tools.js",
+                    lineNumber: 28,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                    className: "text-lg font-semibold text-gray-800 mb-1",
+                    children: element.name
+                }, void 0, false, {
+                    fileName: "src/components/Home/Tools.js",
+                    lineNumber: 33,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-sm text-gray-500",
+                    children: element.tag
+                }, void 0, false, {
+                    fileName: "src/components/Home/Tools.js",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Home/Tools.js",
+            lineNumber: 27,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "src/components/home/Themetoggle.js",
-        lineNumber: 11,
+        fileName: "src/components/Home/Tools.js",
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }
-_s(ThemeToggleButton, "n2P3coCVngntCnyS/Nqj+dgR7+U=");
-_c = ThemeToggleButton;
-exports.default = ThemeToggleButton;
-var _c;
-$RefreshReg$(_c, "ThemeToggleButton");
+_c = VisualizationCard;
+function Tool() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6",
+        children: dataStructures.map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(VisualizationCard, {
+                element: element
+            }, index, false, {
+                fileName: "src/components/Home/Tools.js",
+                lineNumber: 44,
+                columnNumber: 9
+            }, this))
+    }, void 0, false, {
+        fileName: "src/components/Home/Tools.js",
+        lineNumber: 42,
+        columnNumber: 5
+    }, this);
+}
+_c1 = Tool;
+exports.default = Tool;
+var _c, _c1;
+$RefreshReg$(_c, "VisualizationCard");
+$RefreshReg$(_c1, "Tool");
 
-  $parcel$ReactRefreshHelpers$d173.postlude(module);
+  $parcel$ReactRefreshHelpers$4371.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -28623,147 +28696,12 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"hqHzT":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$2ab8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$2ab8.init();
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"kJmo7":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$02be = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$02be.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2ab8.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouter = require("react-router");
-const dataStructures = [
-    {
-        name: "Sorting",
-        tag: "Sorting Algorithms",
-        path: "/sorting",
-        image: "https://dsavisualization.com/static/media/sorts.f7fffe8735e39e84c4bf.png"
-    },
-    {
-        name: "Searching",
-        tag: "Searching Algorithms",
-        path: "/searching",
-        image: "https://dsavisualization.com/static/media/searching.13bb298f191a7dd10e54.png"
-    },
-    {
-        name: "Array",
-        tag: "Arrays",
-        path: "/array",
-        image: "https://dsavisualization.com/static/media/arrays.710250afff56bc948363.jpg"
-    },
-    {
-        name: "Linked List",
-        tag: "Linked Lists",
-        path: "/linkedlist",
-        image: "https://dsavisualization.com/static/media/linkedlists.757bf283c34d1e3e057f.png"
-    },
-    {
-        name: "Stack",
-        tag: "Stacks",
-        path: "/stack",
-        image: "https://dsavisualization.com/static/media/stack.5d27e4741149bacc91bb.png"
-    },
-    {
-        name: "Queue",
-        tag: "Queues",
-        path: "/queue",
-        image: "https://dsavisualization.com/static/media/queue.a3865a9f6e876fef8e7e.png"
-    },
-    {
-        name: "Tree",
-        tag: "Trees",
-        path: "/tree",
-        image: "https://dsavisualization.com/static/media/trees.fab8c510128f49e77c43.png"
-    },
-    {
-        name: "Graph",
-        tag: "Graphs",
-        path: "/graph",
-        image: "https://dsavisualization.com/static/media/graphs.cf3120a3611af39a7662.png"
-    }
-];
-function VisualizationCard({ element }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-        to: element.path,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition duration-300 ease-in-out text-center w-full h-[300] flex flex-col items-center",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: element.image,
-                    alt: element.name,
-                    className: "object-cover h-[200]"
-                }, void 0, false, {
-                    fileName: "src/components/home/Tools.js",
-                    lineNumber: 28,
-                    columnNumber: 11
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    className: "text-lg font-semibold text-gray-800 mb-1",
-                    children: element.name
-                }, void 0, false, {
-                    fileName: "src/components/home/Tools.js",
-                    lineNumber: 33,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-sm text-gray-500",
-                    children: element.tag
-                }, void 0, false, {
-                    fileName: "src/components/home/Tools.js",
-                    lineNumber: 34,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/home/Tools.js",
-            lineNumber: 27,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/home/Tools.js",
-        lineNumber: 26,
-        columnNumber: 5
-    }, this);
-}
-_c = VisualizationCard;
-function Tool() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6",
-        children: dataStructures.map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(VisualizationCard, {
-                element: element
-            }, index, false, {
-                fileName: "src/components/home/Tools.js",
-                lineNumber: 44,
-                columnNumber: 9
-            }, this))
-    }, void 0, false, {
-        fileName: "src/components/home/Tools.js",
-        lineNumber: 42,
-        columnNumber: 5
-    }, this);
-}
-_c1 = Tool;
-exports.default = Tool;
-var _c, _c1;
-$RefreshReg$(_c, "VisualizationCard");
-$RefreshReg$(_c1, "Tool");
-
-  $parcel$ReactRefreshHelpers$2ab8.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kwteh":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$f321 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$f321.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f321.prelude(module);
+$parcel$ReactRefreshHelpers$02be.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28781,7 +28719,7 @@ function Footer() {
                     className: "text-xl font-semibold text-gray-800",
                     children: "Vikki Gupta"
                 }, void 0, false, {
-                    fileName: "src/components/home/footer.js",
+                    fileName: "src/components/Home/footer.js",
                     lineNumber: 7,
                     columnNumber: 9
                 }, this),
@@ -28789,7 +28727,7 @@ function Footer() {
                     className: "text-gray-600 mt-2",
                     children: "Aspiring Web Developer | Passionate about UI/UX and React"
                 }, void 0, false, {
-                    fileName: "src/components/home/footer.js",
+                    fileName: "src/components/Home/footer.js",
                     lineNumber: 8,
                     columnNumber: 9
                 }, this),
@@ -28806,7 +28744,7 @@ function Footer() {
                                     className: "sr-only",
                                     children: "GitHub"
                                 }, void 0, false, {
-                                    fileName: "src/components/home/footer.js",
+                                    fileName: "src/components/Home/footer.js",
                                     lineNumber: 12,
                                     columnNumber: 13
                                 }, this),
@@ -28819,18 +28757,18 @@ function Footer() {
                                         clipRule: "evenodd",
                                         d: "M12 2C6.48...Z"
                                     }, void 0, false, {
-                                        fileName: "src/components/home/footer.js",
+                                        fileName: "src/components/Home/footer.js",
                                         lineNumber: 14,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "src/components/home/footer.js",
+                                    fileName: "src/components/Home/footer.js",
                                     lineNumber: 13,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "src/components/home/footer.js",
+                            fileName: "src/components/Home/footer.js",
                             lineNumber: 11,
                             columnNumber: 11
                         }, this),
@@ -28844,7 +28782,7 @@ function Footer() {
                                     className: "sr-only",
                                     children: "LinkedIn"
                                 }, void 0, false, {
-                                    fileName: "src/components/home/footer.js",
+                                    fileName: "src/components/Home/footer.js",
                                     lineNumber: 18,
                                     columnNumber: 13
                                 }, this),
@@ -28855,18 +28793,18 @@ function Footer() {
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                         d: "M19 0h-14c-2.76..."
                                     }, void 0, false, {
-                                        fileName: "src/components/home/footer.js",
+                                        fileName: "src/components/Home/footer.js",
                                         lineNumber: 20,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "src/components/home/footer.js",
+                                    fileName: "src/components/Home/footer.js",
                                     lineNumber: 19,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "src/components/home/footer.js",
+                            fileName: "src/components/Home/footer.js",
                             lineNumber: 17,
                             columnNumber: 11
                         }, this),
@@ -28878,7 +28816,7 @@ function Footer() {
                                     className: "sr-only",
                                     children: "Email"
                                 }, void 0, false, {
-                                    fileName: "src/components/home/footer.js",
+                                    fileName: "src/components/Home/footer.js",
                                     lineNumber: 24,
                                     columnNumber: 13
                                 }, this),
@@ -28889,24 +28827,24 @@ function Footer() {
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
                                         d: "M2 4a2 2 0 0 1..."
                                     }, void 0, false, {
-                                        fileName: "src/components/home/footer.js",
+                                        fileName: "src/components/Home/footer.js",
                                         lineNumber: 26,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "src/components/home/footer.js",
+                                    fileName: "src/components/Home/footer.js",
                                     lineNumber: 25,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "src/components/home/footer.js",
+                            fileName: "src/components/Home/footer.js",
                             lineNumber: 23,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "src/components/home/footer.js",
+                    fileName: "src/components/Home/footer.js",
                     lineNumber: 10,
                     columnNumber: 9
                 }, this),
@@ -28918,18 +28856,18 @@ function Footer() {
                         " Vikki Gupta. All rights reserved."
                     ]
                 }, void 0, true, {
-                    fileName: "src/components/home/footer.js",
+                    fileName: "src/components/Home/footer.js",
                     lineNumber: 31,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "src/components/home/footer.js",
+            fileName: "src/components/Home/footer.js",
             lineNumber: 6,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "src/components/home/footer.js",
+        fileName: "src/components/Home/footer.js",
         lineNumber: 5,
         columnNumber: 5
     }, this);
@@ -28939,7 +28877,7 @@ exports.default = Footer;
 var _c;
 $RefreshReg$(_c, "Footer");
 
-  $parcel$ReactRefreshHelpers$f321.postlude(module);
+  $parcel$ReactRefreshHelpers$02be.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
@@ -28958,8 +28896,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 const ArrayVisualization = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
@@ -28972,36 +28908,29 @@ const ArrayVisualization = ()=>{
                         children: "DSA Visualization"
                     }, void 0, false, {
                         fileName: "src/components/visualizations/Array.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/Array.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/Array.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/Array.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/Array.js",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/visualizations/Array.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29014,7 +28943,7 @@ const ArrayVisualization = ()=>{
                             children: "Array Visualization"
                         }, void 0, false, {
                             fileName: "src/components/visualizations/Array.js",
-                            lineNumber: 25,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29025,7 +28954,7 @@ const ArrayVisualization = ()=>{
                                     children: "Coming soon..."
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Array.js",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -29034,30 +28963,30 @@ const ArrayVisualization = ()=>{
                                     children: "Back to Home"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Array.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/Array.js",
-                            lineNumber: 26,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/Array.js",
-                    lineNumber: 24,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/Array.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/Array.js",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 6
     }, undefined);
 };
@@ -29071,7 +29000,7 @@ $RefreshReg$(_c, "ArrayVisualization");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"5JNTA":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"5JNTA":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$54af = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$54af.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -29086,8 +29015,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
 var _sharedVisualizer = require("./SharedVisualizer");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 var _s = $RefreshSig$();
 const searchingAlgorithms = [
     "Linear Search",
@@ -29193,36 +29120,29 @@ const Searching = ()=>{
                         children: "DSA Visualization"
                     }, void 0, false, {
                         fileName: "src/components/visualizations/searching.js",
-                        lineNumber: 113,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/searching.js",
-                                lineNumber: 115,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/searching.js",
-                                lineNumber: 121,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/searching.js",
+                            lineNumber: 114,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/searching.js",
-                        lineNumber: 114,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/visualizations/searching.js",
-                lineNumber: 112,
+                lineNumber: 111,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29240,12 +29160,12 @@ const Searching = ()=>{
                                         children: "Searching Visualizer"
                                     }, void 0, false, {
                                         fileName: "src/components/visualizations/searching.js",
-                                        lineNumber: 131,
+                                        lineNumber: 129,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/searching.js",
-                                    lineNumber: 130,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29256,7 +29176,7 @@ const Searching = ()=>{
                                             children: "Visualize how searching algorithms work with interactive animations. Select an algorithm and click Simulate to start."
                                         }, void 0, false, {
                                             fileName: "src/components/visualizations/searching.js",
-                                            lineNumber: 135,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29270,7 +29190,7 @@ const Searching = ()=>{
                                                             children: "Algorithm"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 142,
+                                                            lineNumber: 140,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -29279,13 +29199,13 @@ const Searching = ()=>{
                                                             children: showDescription ? "Hide details" : "Show details"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 143,
+                                                            lineNumber: 141,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 141,
+                                                    lineNumber: 139,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
@@ -29301,12 +29221,12 @@ const Searching = ()=>{
                                                             children: algo
                                                         }, algo, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 161,
+                                                            lineNumber: 159,
                                                             columnNumber: 21
                                                         }, undefined))
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 151,
+                                                    lineNumber: 149,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 showDescription && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29314,13 +29234,13 @@ const Searching = ()=>{
                                                     children: algorithmDescriptions[algorithm]
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 166,
+                                                    lineNumber: 164,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/searching.js",
-                                            lineNumber: 140,
+                                            lineNumber: 138,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29331,7 +29251,7 @@ const Searching = ()=>{
                                                     children: "Search Target"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 173,
+                                                    lineNumber: 171,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29342,7 +29262,7 @@ const Searching = ()=>{
                                                             children: "Value to search for:"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 175,
+                                                            lineNumber: 173,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -29357,19 +29277,19 @@ const Searching = ()=>{
                                                             placeholder: "Enter a number"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 176,
+                                                            lineNumber: 174,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 174,
+                                                    lineNumber: 172,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/searching.js",
-                                            lineNumber: 172,
+                                            lineNumber: 170,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29380,7 +29300,7 @@ const Searching = ()=>{
                                                     children: "Array Configuration"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 191,
+                                                    lineNumber: 189,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29394,7 +29314,7 @@ const Searching = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 194,
+                                                            lineNumber: 192,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -29410,13 +29330,13 @@ const Searching = ()=>{
                                                             disabled: isSorting
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 195,
+                                                            lineNumber: 193,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 193,
+                                                    lineNumber: 191,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29427,7 +29347,7 @@ const Searching = ()=>{
                                                             children: "Custom Array (comma separated):"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 210,
+                                                            lineNumber: 208,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -29442,19 +29362,19 @@ const Searching = ()=>{
                                                             disabled: isSorting
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 211,
+                                                            lineNumber: 209,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 209,
+                                                    lineNumber: 207,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/searching.js",
-                                            lineNumber: 190,
+                                            lineNumber: 188,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29465,7 +29385,7 @@ const Searching = ()=>{
                                                     children: "Simulation Controls"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 226,
+                                                    lineNumber: 224,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29480,7 +29400,7 @@ const Searching = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 229,
+                                                            lineNumber: 227,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -29494,19 +29414,19 @@ const Searching = ()=>{
                                                             disabled: isSorting
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/searching.js",
-                                                            lineNumber: 230,
+                                                            lineNumber: 228,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 228,
+                                                    lineNumber: 226,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/searching.js",
-                                            lineNumber: 225,
+                                            lineNumber: 223,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29519,7 +29439,7 @@ const Searching = ()=>{
                                                     children: "Reset"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 244,
+                                                    lineNumber: 242,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -29544,7 +29464,7 @@ const Searching = ()=>{
                                                                         strokeWidth: "4"
                                                                     }, void 0, false, {
                                                                         fileName: "src/components/visualizations/searching.js",
-                                                                        lineNumber: 266,
+                                                                        lineNumber: 264,
                                                                         columnNumber: 25
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
@@ -29553,43 +29473,43 @@ const Searching = ()=>{
                                                                         d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                                                                     }, void 0, false, {
                                                                         fileName: "src/components/visualizations/searching.js",
-                                                                        lineNumber: 267,
+                                                                        lineNumber: 265,
                                                                         columnNumber: 25
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/components/visualizations/searching.js",
-                                                                lineNumber: 265,
+                                                                lineNumber: 263,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             "Simulating..."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/components/visualizations/searching.js",
-                                                        lineNumber: 264,
+                                                        lineNumber: 262,
                                                         columnNumber: 21
                                                     }, undefined) : "Simulate"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/searching.js",
-                                                    lineNumber: 254,
+                                                    lineNumber: 252,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/searching.js",
-                                            lineNumber: 243,
+                                            lineNumber: 241,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/visualizations/searching.js",
-                                    lineNumber: 134,
+                                    lineNumber: 132,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/searching.js",
-                            lineNumber: 129,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29605,37 +29525,37 @@ const Searching = ()=>{
                                     speed: speed
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/searching.js",
-                                    lineNumber: 279,
+                                    lineNumber: 277,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sharedVisualizer.ComplexityInfo), {
                                     type: "searching"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/searching.js",
-                                    lineNumber: 288,
+                                    lineNumber: 286,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/searching.js",
-                            lineNumber: 278,
+                            lineNumber: 276,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/searching.js",
-                    lineNumber: 127,
+                    lineNumber: 125,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/searching.js",
-                lineNumber: 126,
+                lineNumber: 124,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/searching.js",
-        lineNumber: 110,
+        lineNumber: 109,
         columnNumber: 5
     }, undefined);
 };
@@ -29650,7 +29570,7 @@ $RefreshReg$(_c, "Searching");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./SharedVisualizer":"4fAuA","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4fAuA":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./SharedVisualizer":"4fAuA","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4fAuA":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$0c6b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$0c6b.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -29662,174 +29582,133 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "VisualizationPanel", ()=>VisualizationPanel);
 parcelHelpers.export(exports, "ComplexityInfo", ()=>ComplexityInfo);
+parcelHelpers.export(exports, "MainLayout", ()=>MainLayout);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const VisualizationPanel = ({ array, activeIndices, completedIndices, algorithm, target, isSorting, speed })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "w-full flex flex-col",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "bg-gray-800 p-6 rounded-2xl shadow-lg h-full flex flex-col",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "text-2xl font-bold text-amber-300 mb-2",
-                    children: "Visualization Panel"
-                }, void 0, false, {
-                    fileName: "src/components/visualizations/SharedVisualizer.js",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "mb-4 flex justify-between items-center",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: algorithm && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "text-gray-400",
+const VisualizationPanel = ({ array, activeIndices, completedIndices, algorithm, target, speed })=>{
+    return(// flex-1 and min-h-0 are the "magic" that prevents the scrollbar
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "flex flex-col flex-1 min-h-0 bg-gray-800 p-4 rounded-2xl shadow-lg border border-gray-700",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex justify-between items-center mb-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "text-xl font-bold text-amber-300",
+                        children: "Visualization"
+                    }, void 0, false, {
+                        fileName: "src/components/visualizations/SharedVisualizer.js",
+                        lineNumber: 16,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex gap-4 items-center",
+                        children: [
+                            algorithm && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-xs text-gray-400",
                                 children: [
-                                    "Current: ",
                                     algorithm,
                                     " ",
                                     target && `(Target: ${target})`
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/visualizations/SharedVisualizer.js",
-                                lineNumber: 22,
-                                columnNumber: 15
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/visualizations/SharedVisualizer.js",
-                            lineNumber: 20,
-                            columnNumber: 11
-                        }, undefined),
-                        array.length > 0 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-sm bg-gray-700 px-3 py-1 rounded-full",
-                            children: [
-                                array.length,
-                                " elements"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/visualizations/SharedVisualizer.js",
-                            lineNumber: 28,
-                            columnNumber: 13
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/visualizations/SharedVisualizer.js",
-                    lineNumber: 19,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-1 flex flex-col justify-center",
-                    children: array.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "text-center py-12 bg-gray-700 rounded-lg",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                xmlns: "http://www.w3.org/2000/svg",
-                                className: "h-12 w-12 mx-auto text-gray-500 mb-4",
-                                fill: "none",
-                                viewBox: "0 0 24 24",
-                                stroke: "currentColor",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                    strokeLinecap: "round",
-                                    strokeLinejoin: "round",
-                                    strokeWidth: 2,
-                                    d: "M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                                }, void 0, false, {
-                                    fileName: "src/components/visualizations/SharedVisualizer.js",
-                                    lineNumber: 38,
-                                    columnNumber: 17
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/SharedVisualizer.js",
-                                lineNumber: 37,
-                                columnNumber: 15
+                                lineNumber: 19,
+                                columnNumber: 13
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "text-xl font-medium text-gray-400 mb-2",
-                                children: "No data to visualize"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "text-[10px] bg-gray-700 px-2 py-0.5 rounded text-gray-300",
+                                children: [
+                                    array.length,
+                                    " Elements"
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/visualizations/SharedVisualizer.js",
-                                lineNumber: 40,
-                                columnNumber: 15
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "text-gray-500",
-                                children: "Configure your settings and click Simulate to begin"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/SharedVisualizer.js",
-                                lineNumber: 41,
-                                columnNumber: 15
+                                lineNumber: 23,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/visualizations/SharedVisualizer.js",
-                        lineNumber: 36,
-                        columnNumber: 13
-                    }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "relative",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex flex-wrap justify-center gap-3 bg-gray-700 p-6 rounded-lg min-h-[400px] items-end",
-                            children: array.map((val, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: `flex flex-col items-center transition-all duration-300 ${activeIndices.includes(idx) ? "transform scale-110" : ""}`,
-                                    style: {
-                                        height: `${val * 3}px`,
-                                        minHeight: "30px",
-                                        width: `${Math.max(30, 100 / array.length)}px`,
-                                        transition: `height ${speed / 1000}s ease, background-color 0.3s ease`
-                                    },
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: `w-full rounded-t-md flex items-end justify-center font-bold text-xs ${activeIndices.includes(idx) ? "bg-red-400" : completedIndices.includes(idx) ? "bg-green-400" : "bg-amber-400"}`,
-                                        style: {
-                                            height: "100%"
-                                        },
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "absolute -bottom-6 text-white",
-                                            children: val
-                                        }, void 0, false, {
-                                            fileName: "src/components/visualizations/SharedVisualizer.js",
-                                            lineNumber: 73,
-                                            columnNumber: 23
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/visualizations/SharedVisualizer.js",
-                                        lineNumber: 61,
-                                        columnNumber: 21
-                                    }, undefined)
-                                }, idx, false, {
-                                    fileName: "src/components/visualizations/SharedVisualizer.js",
-                                    lineNumber: 47,
-                                    columnNumber: 19
-                                }, undefined))
-                        }, void 0, false, {
-                            fileName: "src/components/visualizations/SharedVisualizer.js",
-                            lineNumber: 45,
-                            columnNumber: 15
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/visualizations/SharedVisualizer.js",
-                        lineNumber: 44,
-                        columnNumber: 13
+                        lineNumber: 17,
+                        columnNumber: 9
                     }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/visualizations/SharedVisualizer.js",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex-1 bg-gray-900/40 rounded-xl p-4 flex flex-col justify-end min-h-0 border border-gray-700/50",
+                children: array.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "h-full flex items-center justify-center text-gray-500 italic text-sm",
+                    children: "No data to visualize. Configure and click Simulate."
                 }, void 0, false, {
                     fileName: "src/components/visualizations/SharedVisualizer.js",
-                    lineNumber: 34,
-                    columnNumber: 9
+                    lineNumber: 32,
+                    columnNumber: 11
+                }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex items-end justify-center gap-1 h-full w-full overflow-hidden",
+                    children: array.map((val, idx)=>{
+                        const maxVal = Math.max(...array, 1);
+                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex flex-col items-center",
+                            style: {
+                                width: `${100 / array.length}%`,
+                                maxWidth: "45px",
+                                height: "100%",
+                                justifyContent: "flex-end"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: `w-full rounded-t-sm transition-all duration-200 ${activeIndices.includes(idx) ? "bg-red-400 shadow-[0_0_10px_rgba(248,113,113,0.4)]" : completedIndices.includes(idx) ? "bg-green-400" : "bg-amber-400"}`,
+                                    style: {
+                                        // Scale relative to 85% of container height to leave room for labels
+                                        height: `${val / maxVal * 85}%`,
+                                        transition: `height ${speed / 1000}s ease`
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/components/visualizations/SharedVisualizer.js",
+                                    lineNumber: 50,
+                                    columnNumber: 19
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-[10px] text-gray-300 mt-1 font-mono",
+                                    children: val
+                                }, void 0, false, {
+                                    fileName: "src/components/visualizations/SharedVisualizer.js",
+                                    lineNumber: 61,
+                                    columnNumber: 19
+                                }, undefined)
+                            ]
+                        }, idx, true, {
+                            fileName: "src/components/visualizations/SharedVisualizer.js",
+                            lineNumber: 40,
+                            columnNumber: 17
+                        }, undefined);
+                    })
+                }, void 0, false, {
+                    fileName: "src/components/visualizations/SharedVisualizer.js",
+                    lineNumber: 36,
+                    columnNumber: 11
                 }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/visualizations/SharedVisualizer.js",
-            lineNumber: 14,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "src/components/visualizations/SharedVisualizer.js",
+                lineNumber: 30,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/visualizations/SharedVisualizer.js",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 5
-    }, undefined);
+    }, undefined));
 };
 _c = VisualizationPanel;
 const ComplexityInfo = ({ type })=>{
-    const sortingComplexities = [
+    const complexities = type === "sorting" ? [
         {
             name: "Bubble Sort",
             time: "O(n\xb2)",
@@ -29845,8 +29724,7 @@ const ComplexityInfo = ({ type })=>{
             time: "O(n\xb2)",
             space: "O(1)"
         }
-    ];
-    const searchingComplexities = [
+    ] : [
         {
             name: "Linear Search",
             time: "O(n)",
@@ -29858,66 +29736,208 @@ const ComplexityInfo = ({ type })=>{
             space: "O(1)"
         }
     ];
-    const complexities = type === "sorting" ? sortingComplexities : searchingComplexities;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "mt-4 bg-gray-800 p-4 rounded-2xl shadow-lg",
+        className: "mt-3 bg-gray-800 p-3 rounded-2xl border border-gray-700",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                className: "text-lg font-semibold text-amber-300 mb-2",
+                className: "text-[10px] font-bold text-amber-300 mb-2 uppercase tracking-widest opacity-80",
                 children: "Algorithm Complexity"
             }, void 0, false, {
                 fileName: "src/components/visualizations/SharedVisualizer.js",
-                lineNumber: 102,
+                lineNumber: 87,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "grid grid-cols-1 md:grid-cols-3 gap-4",
+                className: "grid grid-cols-3 gap-3",
                 children: complexities.map((algo, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "bg-gray-700 p-3 rounded-lg",
+                        className: "bg-gray-700/30 p-2 rounded-lg border border-gray-600/50",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                                className: "font-medium mb-1",
+                                className: "text-xs font-bold text-gray-100 truncate",
                                 children: algo.name
                             }, void 0, false, {
                                 fileName: "src/components/visualizations/SharedVisualizer.js",
-                                lineNumber: 106,
+                                lineNumber: 93,
                                 columnNumber: 13
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "text-sm text-gray-400",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex flex-col mt-1",
                                 children: [
-                                    "Time: ",
-                                    algo.time,
-                                    " | Space: ",
-                                    algo.space
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "text-[10px] text-gray-400",
+                                        children: [
+                                            "Time: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "text-amber-200/80",
+                                                children: algo.time
+                                            }, void 0, false, {
+                                                fileName: "src/components/visualizations/SharedVisualizer.js",
+                                                lineNumber: 95,
+                                                columnNumber: 65
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/visualizations/SharedVisualizer.js",
+                                        lineNumber: 95,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "text-[10px] text-gray-400",
+                                        children: [
+                                            "Space: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "text-amber-200/80",
+                                                children: algo.space
+                                            }, void 0, false, {
+                                                fileName: "src/components/visualizations/SharedVisualizer.js",
+                                                lineNumber: 96,
+                                                columnNumber: 66
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/visualizations/SharedVisualizer.js",
+                                        lineNumber: 96,
+                                        columnNumber: 15
+                                    }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/visualizations/SharedVisualizer.js",
-                                lineNumber: 107,
+                                lineNumber: 94,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, index, true, {
                         fileName: "src/components/visualizations/SharedVisualizer.js",
-                        lineNumber: 105,
+                        lineNumber: 92,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/visualizations/SharedVisualizer.js",
-                lineNumber: 103,
+                lineNumber: 90,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/SharedVisualizer.js",
-        lineNumber: 101,
+        lineNumber: 86,
         columnNumber: 5
     }, undefined);
 };
 _c1 = ComplexityInfo;
-var _c, _c1;
+const MainLayout = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "h-screen w-full flex flex-col bg-gray-900 text-white overflow-hidden p-4",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+                className: "flex justify-between items-center h-10 mb-4 shrink-0",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-2xl font-bold tracking-tight",
+                        children: "DSA Visualization"
+                    }, void 0, false, {
+                        fileName: "src/components/visualizations/SharedVisualizer.js",
+                        lineNumber: 114,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "text-sm font-medium hover:text-amber-300",
+                        children: "Home"
+                    }, void 0, false, {
+                        fileName: "src/components/visualizations/SharedVisualizer.js",
+                        lineNumber: 115,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/visualizations/SharedVisualizer.js",
+                lineNumber: 113,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex flex-1 gap-6 min-h-0 overflow-hidden",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("aside", {
+                        className: "w-80 flex flex-col gap-4 overflow-y-auto pr-2 custom-scrollbar shrink-0",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "bg-gray-800 p-4 rounded-2xl border border-gray-700",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    className: "text-lg font-bold text-amber-300 mb-4",
+                                    children: "Sorting Visualizer"
+                                }, void 0, false, {
+                                    fileName: "src/components/visualizations/SharedVisualizer.js",
+                                    lineNumber: 124,
+                                    columnNumber: 14
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-xs text-gray-400 leading-relaxed",
+                                    children: "Visualize how sorting algorithms work with interactive animations."
+                                }, void 0, false, {
+                                    fileName: "src/components/visualizations/SharedVisualizer.js",
+                                    lineNumber: 125,
+                                    columnNumber: 14
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/visualizations/SharedVisualizer.js",
+                            lineNumber: 122,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/visualizations/SharedVisualizer.js",
+                        lineNumber: 121,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+                        className: "flex-1 flex flex-col min-h-0",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(VisualizationPanel, {
+                                array: [
+                                    10,
+                                    20,
+                                    30,
+                                    40,
+                                    50
+                                ],
+                                activeIndices: [],
+                                completedIndices: [],
+                                speed: 500
+                            }, void 0, false, {
+                                fileName: "src/components/visualizations/SharedVisualizer.js",
+                                lineNumber: 132,
+                                columnNumber: 12
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ComplexityInfo, {
+                                type: "sorting"
+                            }, void 0, false, {
+                                fileName: "src/components/visualizations/SharedVisualizer.js",
+                                lineNumber: 138,
+                                columnNumber: 12
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/visualizations/SharedVisualizer.js",
+                        lineNumber: 131,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/visualizations/SharedVisualizer.js",
+                lineNumber: 119,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/visualizations/SharedVisualizer.js",
+        lineNumber: 111,
+        columnNumber: 5
+    }, undefined);
+};
+_c2 = MainLayout;
+var _c, _c1, _c2;
 $RefreshReg$(_c, "VisualizationPanel");
 $RefreshReg$(_c1, "ComplexityInfo");
+$RefreshReg$(_c2, "MainLayout");
 
   $parcel$ReactRefreshHelpers$0c6b.postlude(module);
 } finally {
@@ -29939,8 +29959,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
 var _sharedVisualizer = require("./SharedVisualizer");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 var _s = $RefreshSig$();
 const sortingAlgorithms = [
     "Bubble Sort",
@@ -30107,23 +30125,16 @@ const Sorting = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/sorting.js",
-                                lineNumber: 129,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/sorting.js",
-                                lineNumber: 135,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/sorting.js",
+                            lineNumber: 129,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/sorting.js",
                         lineNumber: 128,
                         columnNumber: 9
@@ -30149,12 +30160,12 @@ const Sorting = ()=>{
                                         children: "Sorting Visualizer"
                                     }, void 0, false, {
                                         fileName: "src/components/visualizations/sorting.js",
-                                        lineNumber: 145,
+                                        lineNumber: 144,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/sorting.js",
-                                    lineNumber: 144,
+                                    lineNumber: 143,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30165,7 +30176,7 @@ const Sorting = ()=>{
                                             children: "Visualize how sorting algorithms work with interactive animations. Select an algorithm and click Simulate to start."
                                         }, void 0, false, {
                                             fileName: "src/components/visualizations/sorting.js",
-                                            lineNumber: 149,
+                                            lineNumber: 148,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30179,7 +30190,7 @@ const Sorting = ()=>{
                                                             children: "Algorithm"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 156,
+                                                            lineNumber: 155,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -30188,13 +30199,13 @@ const Sorting = ()=>{
                                                             children: showDescription ? "Hide details" : "Show details"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 157,
+                                                            lineNumber: 156,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 155,
+                                                    lineNumber: 154,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
@@ -30210,12 +30221,12 @@ const Sorting = ()=>{
                                                             children: algo
                                                         }, algo, false, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 175,
+                                                            lineNumber: 174,
                                                             columnNumber: 21
                                                         }, undefined))
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 165,
+                                                    lineNumber: 164,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 showDescription && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30223,13 +30234,13 @@ const Sorting = ()=>{
                                                     children: algorithmDescriptions[algorithm]
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 180,
+                                                    lineNumber: 179,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/sorting.js",
-                                            lineNumber: 154,
+                                            lineNumber: 153,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30240,7 +30251,7 @@ const Sorting = ()=>{
                                                     children: "Array Configuration"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 187,
+                                                    lineNumber: 186,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30254,7 +30265,7 @@ const Sorting = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 190,
+                                                            lineNumber: 189,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -30270,13 +30281,13 @@ const Sorting = ()=>{
                                                             disabled: isSorting
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 191,
+                                                            lineNumber: 190,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 189,
+                                                    lineNumber: 188,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30287,7 +30298,7 @@ const Sorting = ()=>{
                                                             children: "Custom Array (comma separated):"
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 206,
+                                                            lineNumber: 205,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -30302,19 +30313,19 @@ const Sorting = ()=>{
                                                             disabled: isSorting
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 207,
+                                                            lineNumber: 206,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 205,
+                                                    lineNumber: 204,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/sorting.js",
-                                            lineNumber: 186,
+                                            lineNumber: 185,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30325,7 +30336,7 @@ const Sorting = ()=>{
                                                     children: "Simulation Controls"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 222,
+                                                    lineNumber: 221,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30340,7 +30351,7 @@ const Sorting = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 225,
+                                                            lineNumber: 224,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -30354,19 +30365,19 @@ const Sorting = ()=>{
                                                             disabled: isSorting
                                                         }, void 0, false, {
                                                             fileName: "src/components/visualizations/sorting.js",
-                                                            lineNumber: 226,
+                                                            lineNumber: 225,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 224,
+                                                    lineNumber: 223,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/sorting.js",
-                                            lineNumber: 221,
+                                            lineNumber: 220,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30379,7 +30390,7 @@ const Sorting = ()=>{
                                                     children: "Reset"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 240,
+                                                    lineNumber: 239,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -30404,7 +30415,7 @@ const Sorting = ()=>{
                                                                         strokeWidth: "4"
                                                                     }, void 0, false, {
                                                                         fileName: "src/components/visualizations/sorting.js",
-                                                                        lineNumber: 262,
+                                                                        lineNumber: 261,
                                                                         columnNumber: 25
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
@@ -30413,43 +30424,43 @@ const Sorting = ()=>{
                                                                         d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                                                                     }, void 0, false, {
                                                                         fileName: "src/components/visualizations/sorting.js",
-                                                                        lineNumber: 263,
+                                                                        lineNumber: 262,
                                                                         columnNumber: 25
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/components/visualizations/sorting.js",
-                                                                lineNumber: 261,
+                                                                lineNumber: 260,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             "Simulating..."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/components/visualizations/sorting.js",
-                                                        lineNumber: 260,
+                                                        lineNumber: 259,
                                                         columnNumber: 21
                                                     }, undefined) : "Simulate"
                                                 }, void 0, false, {
                                                     fileName: "src/components/visualizations/sorting.js",
-                                                    lineNumber: 250,
+                                                    lineNumber: 249,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/visualizations/sorting.js",
-                                            lineNumber: 239,
+                                            lineNumber: 238,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/visualizations/sorting.js",
-                                    lineNumber: 148,
+                                    lineNumber: 147,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/sorting.js",
-                            lineNumber: 143,
+                            lineNumber: 142,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30464,31 +30475,31 @@ const Sorting = ()=>{
                                     speed: speed
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/sorting.js",
-                                    lineNumber: 275,
+                                    lineNumber: 274,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sharedVisualizer.ComplexityInfo), {
                                     type: "sorting"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/sorting.js",
-                                    lineNumber: 283,
+                                    lineNumber: 282,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/sorting.js",
-                            lineNumber: 274,
+                            lineNumber: 273,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/sorting.js",
-                    lineNumber: 141,
+                    lineNumber: 140,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/sorting.js",
-                lineNumber: 140,
+                lineNumber: 139,
                 columnNumber: 7
             }, undefined)
         ]
@@ -30509,7 +30520,7 @@ $RefreshReg$(_c, "Sorting");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./SharedVisualizer":"4fAuA","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"3m4Y0":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./SharedVisualizer":"4fAuA","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"3m4Y0":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$effb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$effb.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30523,8 +30534,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 const Graph = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
@@ -30537,36 +30546,29 @@ const Graph = ()=>{
                         children: "DSA Visualization"
                     }, void 0, false, {
                         fileName: "src/components/visualizations/Graph.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/Graph.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/Graph.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/Graph.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/Graph.js",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/visualizations/Graph.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30579,7 +30581,7 @@ const Graph = ()=>{
                             children: "Graph Visualization"
                         }, void 0, false, {
                             fileName: "src/components/visualizations/Graph.js",
-                            lineNumber: 25,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30590,7 +30592,7 @@ const Graph = ()=>{
                                     children: "Coming soon..."
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Graph.js",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -30599,30 +30601,30 @@ const Graph = ()=>{
                                     children: "Back to Home"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Graph.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/Graph.js",
-                            lineNumber: 26,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/Graph.js",
-                    lineNumber: 24,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/Graph.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/Graph.js",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
@@ -30636,7 +30638,7 @@ $RefreshReg$(_c, "Graph");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6glai":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6glai":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$8fa8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$8fa8.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30650,8 +30652,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 const Tree = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
@@ -30664,36 +30664,29 @@ const Tree = ()=>{
                         children: "DSA Visualization"
                     }, void 0, false, {
                         fileName: "src/components/visualizations/tree.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/tree.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/tree.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/tree.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/tree.js",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/visualizations/tree.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30706,7 +30699,7 @@ const Tree = ()=>{
                             children: "Tree Visualization"
                         }, void 0, false, {
                             fileName: "src/components/visualizations/tree.js",
-                            lineNumber: 25,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30717,7 +30710,7 @@ const Tree = ()=>{
                                     children: "Coming soon..."
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/tree.js",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -30726,30 +30719,30 @@ const Tree = ()=>{
                                     children: "Back to Home"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/tree.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/tree.js",
-                            lineNumber: 26,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/tree.js",
-                    lineNumber: 24,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/tree.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/tree.js",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
@@ -30763,7 +30756,7 @@ $RefreshReg$(_c, "Tree");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1Gntg":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1Gntg":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$73e6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$73e6.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30777,8 +30770,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 const Stack = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
@@ -30791,36 +30782,29 @@ const Stack = ()=>{
                         children: "DSA Visualization"
                     }, void 0, false, {
                         fileName: "src/components/visualizations/stack.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/stack.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/stack.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/stack.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/stack.js",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/visualizations/stack.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30833,7 +30817,7 @@ const Stack = ()=>{
                             children: "Stack Visualization"
                         }, void 0, false, {
                             fileName: "src/components/visualizations/stack.js",
-                            lineNumber: 25,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30844,7 +30828,7 @@ const Stack = ()=>{
                                     children: "Coming soon..."
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/stack.js",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -30853,30 +30837,30 @@ const Stack = ()=>{
                                     children: "Back to Home"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/stack.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/stack.js",
-                            lineNumber: 26,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/stack.js",
-                    lineNumber: 24,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/stack.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/stack.js",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
@@ -30890,7 +30874,7 @@ $RefreshReg$(_c, "Stack");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"87ftF":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"87ftF":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$bfdc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$bfdc.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30904,8 +30888,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 const Queue = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
@@ -30918,36 +30900,29 @@ const Queue = ()=>{
                         children: "DSA Visualization"
                     }, void 0, false, {
                         fileName: "src/components/visualizations/queue.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/queue.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/queue.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/queue.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/queue.js",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/visualizations/queue.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30960,7 +30935,7 @@ const Queue = ()=>{
                             children: "Queue Visualization"
                         }, void 0, false, {
                             fileName: "src/components/visualizations/queue.js",
-                            lineNumber: 25,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30971,7 +30946,7 @@ const Queue = ()=>{
                                     children: "Coming soon..."
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/queue.js",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -30980,30 +30955,30 @@ const Queue = ()=>{
                                     children: "Back to Home"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/queue.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/queue.js",
-                            lineNumber: 26,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/queue.js",
-                    lineNumber: 24,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/queue.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/queue.js",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
@@ -31017,7 +30992,7 @@ $RefreshReg$(_c, "Queue");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"21lqJ":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"21lqJ":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$b075 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$b075.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -31031,8 +31006,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-var _themetoggle = require("../home/Themetoggle");
-var _themetoggleDefault = parcelHelpers.interopDefault(_themetoggle);
 const Linked = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
@@ -31045,36 +31018,29 @@ const Linked = ()=>{
                         children: "DSA Visualization"
                     }, void 0, false, {
                         fileName: "src/components/visualizations/Linkedlist.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/Linkedlist.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themetoggleDefault.default), {}, void 0, false, {
-                                fileName: "src/components/visualizations/Linkedlist.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/Linkedlist.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/Linkedlist.js",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/visualizations/Linkedlist.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31087,7 +31053,7 @@ const Linked = ()=>{
                             children: "Linkedlist Visualization"
                         }, void 0, false, {
                             fileName: "src/components/visualizations/Linkedlist.js",
-                            lineNumber: 25,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31098,7 +31064,7 @@ const Linked = ()=>{
                                     children: "Coming soon..."
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Linkedlist.js",
-                                    lineNumber: 27,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -31107,30 +31073,30 @@ const Linked = ()=>{
                                     children: "Back to Home"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Linkedlist.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/Linkedlist.js",
-                            lineNumber: 26,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/Linkedlist.js",
-                    lineNumber: 24,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/Linkedlist.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/visualizations/Linkedlist.js",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
@@ -31144,6 +31110,6 @@ $RefreshReg$(_c, "Linked");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","../home/Themetoggle":"jdoi2","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequired020", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequired020", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=dsavis.31b563d9.js.map
