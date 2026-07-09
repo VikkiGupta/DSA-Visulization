@@ -15,7 +15,7 @@ const Sorting= () => {
   const [algorithm, setAlgorithm] = useState("Bubble Sort");
   const [size, setSize] = useState(10);
   const [input, setInput] = useState("");
-  const [speed, setSpeed] = useState(500);
+  const [speed, setSpeed] = useState(500);   
   const [array, setArray] = useState([]);
   const [isSorting, setIsSorting] = useState(false);
   const [activeIndices, setActiveIndices] = useState([]);

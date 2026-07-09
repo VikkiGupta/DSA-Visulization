@@ -16265,7 +16265,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./components/visualizations/Array":"9gpvy","./components/visualizations/searching":"5JNTA","./components/visualizations/sorting":"8wd8o","./components/visualizations/Graph":"3m4Y0","./components/visualizations/tree":"6glai","./components/visualizations/stack":"1Gntg","./components/visualizations/queue":"87ftF","./components/visualizations/Linkedlist":"21lqJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Home/home":"iO5CC"}],"2jawN":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","./components/Home/home":"iO5CC","./components/visualizations/Array":"9gpvy","./components/visualizations/searching":"5JNTA","./components/visualizations/sorting":"8wd8o","./components/visualizations/Graph":"3m4Y0","./components/visualizations/tree":"6glai","./components/visualizations/stack":"1Gntg","./components/visualizations/queue":"87ftF","./components/visualizations/Linkedlist":"21lqJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2jawN":[function(require,module,exports,__globalThis) {
 /**
  * react-router v7.6.3
  *
@@ -26126,12 +26126,169 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"9gpvy":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$c38b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$c38b.init();
+},{}],"iO5CC":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$553d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$553d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c38b.prelude(module);
+$parcel$ReactRefreshHelpers$553d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _tools = require("./Tools");
+var _toolsDefault = parcelHelpers.interopDefault(_tools);
+var _footer = require("./footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
+var _s = $RefreshSig$();
+function Home() {
+    _s();
+    const homeRef = (0, _react.useRef)(null);
+    const toolsRef = (0, _react.useRef)(null);
+    const scrollTo = (ref)=>{
+        ref.current?.scrollIntoView({
+            behavior: "smooth"
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "bg-black w-full text-white scroll-smooth h-[1550]",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+                        className: "fixed top-0 w-full h-16 bg-amber-50 text-black shadow-md flex items-center justify-between px-8 z-50",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "font-bold text-2xl",
+                                children: "DSA Visualization"
+                            }, void 0, false, {
+                                fileName: "src/components/Home/home.js",
+                                lineNumber: 18,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                                className: "flex gap-6 text-sm font-medium",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                        onClick: ()=>scrollTo(homeRef),
+                                        className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                                        children: "Home"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Home/home.js",
+                                        lineNumber: 20,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                        onClick: ()=>scrollTo(toolsRef),
+                                        className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                                        children: "Tools"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Home/home.js",
+                                        lineNumber: 26,
+                                        columnNumber: 11
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Home/home.js",
+                                lineNumber: 19,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Home/home.js",
+                        lineNumber: 17,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                        ref: homeRef,
+                        className: "pt-24 px-6 flex justify-center items-center text-center min-h-screen",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "max-w-3xl",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                    className: "text-3xl sm:text-4xl font-bold text-amber-400 mb-4",
+                                    children: "Welcome to our DSA Visualization Tools"
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/home.js",
+                                    lineNumber: 41,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-lg sm:text-xl text-gray-300 leading-relaxed",
+                                    children: "Explore and interactively learn Data Structures and Algorithms through powerful visualizations and intuitive interfaces designed for better understanding."
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/home.js",
+                                    lineNumber: 44,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Home/home.js",
+                            lineNumber: 40,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/Home/home.js",
+                        lineNumber: 36,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                        ref: toolsRef,
+                        className: "pt-24 px-6",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toolsDefault.default), {}, void 0, false, {
+                            fileName: "src/components/Home/home.js",
+                            lineNumber: 53,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/Home/home.js",
+                        lineNumber: 52,
+                        columnNumber: 7
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Home/home.js",
+                lineNumber: 15,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Home/home.js",
+                    lineNumber: 57,
+                    columnNumber: 7
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/Home/home.js",
+                lineNumber: 56,
+                columnNumber: 5
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Home/home.js",
+        lineNumber: 14,
+        columnNumber: 5
+    }, this);
+}
+_s(Home, "hC7OsKvzLqSpwRgAwdRl81wob0c=");
+_c = Home;
+exports.default = Home;
+var _c;
+$RefreshReg$(_c, "Home");
+
+  $parcel$ReactRefreshHelpers$553d.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Tools":"lKp9V","./footer":"kJmo7","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lKp9V":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$4371 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$4371.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4371.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -26140,113 +26297,123 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouter = require("react-router");
-const ArrayVisualization = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-                className: "fixed top-0 w-full h-16 bg-amber-50 text-black shadow-md flex items-center justify-between px-8 z-50",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "font-bold text-2xl",
-                        children: "DSA Visualization"
-                    }, void 0, false, {
-                        fileName: "src/components/visualizations/Array.js",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                        className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/Array.js",
-                                lineNumber: 11,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ThemeToggleButton, {}, void 0, false, {
-                                fileName: "src/components/visualizations/Array.js",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/visualizations/Array.js",
-                        lineNumber: 10,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/visualizations/Array.js",
-                lineNumber: 8,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "min-h-screen pt-24 px-6",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "max-w-4xl mx-auto",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "text-3xl font-bold text-amber-500 mb-6",
-                            children: "Array Visualization"
-                        }, void 0, false, {
-                            fileName: "src/components/visualizations/Array.js",
-                            lineNumber: 24,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-gray-700 dark:text-gray-300",
-                                    children: "Coming soon..."
-                                }, void 0, false, {
-                                    fileName: "src/components/visualizations/Array.js",
-                                    lineNumber: 26,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                    to: "/",
-                                    className: "mt-4 inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded",
-                                    children: "Back to Home"
-                                }, void 0, false, {
-                                    fileName: "src/components/visualizations/Array.js",
-                                    lineNumber: 29,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/visualizations/Array.js",
-                            lineNumber: 25,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/visualizations/Array.js",
-                    lineNumber: 23,
+const dataStructures = [
+    {
+        name: "Sorting",
+        tag: "Sorting Algorithms",
+        path: "/sorting",
+        image: "	https://dsavisualization.com/static/media/sorts.facf86ca90c2983f82d2.webp"
+    },
+    {
+        name: "Searching",
+        tag: "Searching Algorithms",
+        path: "/searching",
+        image: "https://dsavisualization.com/static/media/searching.b32766908a75e93ec43d.webp"
+    },
+    {
+        name: "Array",
+        tag: "Arrays",
+        path: "/array",
+        image: "https://dsavisualization.com/static/media/arrays.3a7b139d496811eb2dbf.webp"
+    },
+    {
+        name: "Linked List",
+        tag: "Linked Lists",
+        path: "/linkedlist",
+        image: "https://dsavisualization.com/static/media/linkedlists.aedfc9c27769b3b54f93.webp"
+    },
+    {
+        name: "Stack",
+        tag: "Stacks",
+        path: "/stack",
+        image: "https://dsavisualization.com/static/media/stack.4d8d5f7066e06a0867f7.webp"
+    },
+    {
+        name: "Queue",
+        tag: "Queues",
+        path: "/queue",
+        image: "https://dsavisualization.com/static/media/queue.0891dd468993135c5685.webp"
+    },
+    {
+        name: "Tree",
+        tag: "Trees",
+        path: "/tree",
+        image: "https://dsavisualization.com/static/media/trees.11c2a6e680cca61793a0.webp"
+    },
+    {
+        name: "Graph",
+        tag: "Graphs",
+        path: "/graph",
+        image: "https://dsavisualization.com/static/media/graphs.70ba8e9e76697a49c82c.webp"
+    }
+];
+function VisualizationCard({ element }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+        to: element.path,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition duration-300 ease-in-out text-center w-full h-[300] flex flex-col items-center",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: element.image,
+                    alt: element.name,
+                    className: "object-cover h-[200]"
+                }, void 0, false, {
+                    fileName: "src/components/Home/Tools.js",
+                    lineNumber: 28,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                    className: "text-lg font-semibold text-gray-800 mb-1",
+                    children: element.name
+                }, void 0, false, {
+                    fileName: "src/components/Home/Tools.js",
+                    lineNumber: 33,
                     columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/visualizations/Array.js",
-                lineNumber: 22,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/visualizations/Array.js",
-        lineNumber: 6,
-        columnNumber: 6
-    }, undefined);
-};
-_c = ArrayVisualization;
-exports.default = ArrayVisualization;
-var _c;
-$RefreshReg$(_c, "ArrayVisualization");
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-sm text-gray-500",
+                    children: element.tag
+                }, void 0, false, {
+                    fileName: "src/components/Home/Tools.js",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Home/Tools.js",
+            lineNumber: 27,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Home/Tools.js",
+        lineNumber: 26,
+        columnNumber: 5
+    }, this);
+}
+_c = VisualizationCard;
+function Tool() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6",
+        children: dataStructures.map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(VisualizationCard, {
+                element: element
+            }, index, false, {
+                fileName: "src/components/Home/Tools.js",
+                lineNumber: 44,
+                columnNumber: 9
+            }, this))
+    }, void 0, false, {
+        fileName: "src/components/Home/Tools.js",
+        lineNumber: 42,
+        columnNumber: 5
+    }, this);
+}
+_c1 = Tool;
+exports.default = Tool;
+var _c, _c1;
+$RefreshReg$(_c, "VisualizationCard");
+$RefreshReg$(_c1, "Tool");
 
-  $parcel$ReactRefreshHelpers$c38b.postlude(module);
+  $parcel$ReactRefreshHelpers$4371.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
@@ -28529,7 +28696,311 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"5JNTA":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"kJmo7":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$02be = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$02be.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$02be.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Footer() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+        className: "bg-gray-50 w-full py-10 mt-20 border-t border-gray-200",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "max-w-4xl mx-auto px-4 text-center",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "text-xl font-semibold text-gray-800",
+                    children: "Vikki Gupta"
+                }, void 0, false, {
+                    fileName: "src/components/Home/footer.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-gray-600 mt-2",
+                    children: "Aspiring Web Developer | Passionate about UI/UX and React"
+                }, void 0, false, {
+                    fileName: "src/components/Home/footer.js",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "mt-6 flex justify-center space-x-6",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "https://github.com/",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "text-gray-500 hover:text-black",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "sr-only",
+                                    children: "GitHub"
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/footer.js",
+                                    lineNumber: 12,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                    className: "h-6 w-6",
+                                    fill: "currentColor",
+                                    viewBox: "0 0 24 24",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        fillRule: "evenodd",
+                                        clipRule: "evenodd",
+                                        d: "M12 2C6.48...Z"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Home/footer.js",
+                                        lineNumber: 14,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/footer.js",
+                                    lineNumber: 13,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Home/footer.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "https://linkedin.com/",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "text-gray-500 hover:text-blue-600",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "sr-only",
+                                    children: "LinkedIn"
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/footer.js",
+                                    lineNumber: 18,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                    className: "h-6 w-6",
+                                    fill: "currentColor",
+                                    viewBox: "0 0 24 24",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        d: "M19 0h-14c-2.76..."
+                                    }, void 0, false, {
+                                        fileName: "src/components/Home/footer.js",
+                                        lineNumber: 20,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/footer.js",
+                                    lineNumber: 19,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Home/footer.js",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "mailto:your.email@example.com",
+                            className: "text-gray-500 hover:text-red-500",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "sr-only",
+                                    children: "Email"
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/footer.js",
+                                    lineNumber: 24,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                    className: "h-6 w-6",
+                                    fill: "currentColor",
+                                    viewBox: "0 0 24 24",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        d: "M2 4a2 2 0 0 1..."
+                                    }, void 0, false, {
+                                        fileName: "src/components/Home/footer.js",
+                                        lineNumber: 26,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/Home/footer.js",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Home/footer.js",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Home/footer.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-gray-400 text-sm mt-6",
+                    children: [
+                        "\xa9 ",
+                        new Date().getFullYear(),
+                        " Vikki Gupta. All rights reserved."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Home/footer.js",
+                    lineNumber: 31,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Home/footer.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Home/footer.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$02be.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"9gpvy":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c38b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c38b.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c38b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouter = require("react-router");
+const ArrayVisualization = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "bg-gray-100 dark:bg-gray-900 w-full text-black dark:text-white",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+                className: "fixed top-0 w-full h-16 bg-amber-50 text-black shadow-md flex items-center justify-between px-8 z-50",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "font-bold text-2xl",
+                        children: "DSA Visualization"
+                    }, void 0, false, {
+                        fileName: "src/components/visualizations/Array.js",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                        className: "flex gap-6 text-sm font-medium",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/Array.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/visualizations/Array.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/visualizations/Array.js",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "min-h-screen pt-24 px-6",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "max-w-4xl mx-auto",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            className: "text-3xl font-bold text-amber-500 mb-6",
+                            children: "Array Visualization"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/Array.js",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-gray-700 dark:text-gray-300",
+                                    children: "Coming soon..."
+                                }, void 0, false, {
+                                    fileName: "src/components/visualizations/Array.js",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                                    to: "/",
+                                    className: "mt-4 inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded",
+                                    children: "Back to Home"
+                                }, void 0, false, {
+                                    fileName: "src/components/visualizations/Array.js",
+                                    lineNumber: 28,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/visualizations/Array.js",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/visualizations/Array.js",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/visualizations/Array.js",
+                lineNumber: 21,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/visualizations/Array.js",
+        lineNumber: 6,
+        columnNumber: 6
+    }, undefined);
+};
+_c = ArrayVisualization;
+exports.default = ArrayVisualization;
+var _c;
+$RefreshReg$(_c, "ArrayVisualization");
+
+  $parcel$ReactRefreshHelpers$c38b.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"5JNTA":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$54af = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$54af.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30080,23 +30551,16 @@ const Graph = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                         className: "flex gap-6 text-sm font-medium",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
-                                className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/visualizations/Graph.js",
-                                lineNumber: 11,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ThemeToggleButton, {}, void 0, false, {
-                                fileName: "src/components/visualizations/Graph.js",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                            to: "/",
+                            className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/visualizations/Graph.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/visualizations/Graph.js",
                         lineNumber: 10,
                         columnNumber: 9
@@ -30117,7 +30581,7 @@ const Graph = ()=>{
                             children: "Graph Visualization"
                         }, void 0, false, {
                             fileName: "src/components/visualizations/Graph.js",
-                            lineNumber: 24,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30128,7 +30592,7 @@ const Graph = ()=>{
                                     children: "Coming soon..."
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Graph.js",
-                                    lineNumber: 26,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -30137,24 +30601,24 @@ const Graph = ()=>{
                                     children: "Back to Home"
                                 }, void 0, false, {
                                     fileName: "src/components/visualizations/Graph.js",
-                                    lineNumber: 29,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/visualizations/Graph.js",
-                            lineNumber: 25,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/visualizations/Graph.js",
-                    lineNumber: 23,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/visualizations/Graph.js",
-                lineNumber: 22,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined)
         ]
@@ -30646,484 +31110,6 @@ $RefreshReg$(_c, "Linked");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"iO5CC":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$553d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$553d.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$553d.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _tools = require("./Tools");
-var _toolsDefault = parcelHelpers.interopDefault(_tools);
-var _footer = require("./footer");
-var _footerDefault = parcelHelpers.interopDefault(_footer);
-var _s = $RefreshSig$();
-function Home() {
-    _s();
-    const homeRef = (0, _react.useRef)(null);
-    const toolsRef = (0, _react.useRef)(null);
-    const scrollTo = (ref)=>{
-        ref.current?.scrollIntoView({
-            behavior: "smooth"
-        });
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "bg-black w-full text-white scroll-smooth h-[1550]",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-                        className: "fixed top-0 w-full h-16 bg-amber-50 text-black shadow-md flex items-center justify-between px-8 z-50",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                className: "font-bold text-2xl",
-                                children: "DSA Visualization"
-                            }, void 0, false, {
-                                fileName: "src/components/Home/home.js",
-                                lineNumber: 18,
-                                columnNumber: 9
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                                className: "flex gap-6 text-sm font-medium",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: ()=>scrollTo(homeRef),
-                                        className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                        children: "Home"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Home/home.js",
-                                        lineNumber: 20,
-                                        columnNumber: 11
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: ()=>scrollTo(toolsRef),
-                                        className: "cursor-pointer hover:text-blue-600 transition-colors text-2xl",
-                                        children: "Tools"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Home/home.js",
-                                        lineNumber: 26,
-                                        columnNumber: 11
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Home/home.js",
-                                lineNumber: 19,
-                                columnNumber: 9
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Home/home.js",
-                        lineNumber: 17,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                        ref: homeRef,
-                        className: "pt-24 px-6 flex justify-center items-center text-center min-h-screen",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "max-w-3xl",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                    className: "text-3xl sm:text-4xl font-bold text-amber-400 mb-4",
-                                    children: "Welcome to our DSA Visualization Tools"
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/home.js",
-                                    lineNumber: 41,
-                                    columnNumber: 11
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-lg sm:text-xl text-gray-300 leading-relaxed",
-                                    children: "Explore and interactively learn Data Structures and Algorithms through powerful visualizations and intuitive interfaces designed for better understanding."
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/home.js",
-                                    lineNumber: 44,
-                                    columnNumber: 11
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Home/home.js",
-                            lineNumber: 40,
-                            columnNumber: 9
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/Home/home.js",
-                        lineNumber: 36,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                        ref: toolsRef,
-                        className: "pt-24 px-6",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toolsDefault.default), {}, void 0, false, {
-                            fileName: "src/components/Home/home.js",
-                            lineNumber: 53,
-                            columnNumber: 9
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/Home/home.js",
-                        lineNumber: 52,
-                        columnNumber: 7
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Home/home.js",
-                lineNumber: 15,
-                columnNumber: 5
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
-                    fileName: "src/components/Home/home.js",
-                    lineNumber: 57,
-                    columnNumber: 7
-                }, this)
-            }, void 0, false, {
-                fileName: "src/components/Home/home.js",
-                lineNumber: 56,
-                columnNumber: 5
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Home/home.js",
-        lineNumber: 14,
-        columnNumber: 5
-    }, this);
-}
-_s(Home, "hC7OsKvzLqSpwRgAwdRl81wob0c=");
-_c = Home;
-exports.default = Home;
-var _c;
-$RefreshReg$(_c, "Home");
-
-  $parcel$ReactRefreshHelpers$553d.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Tools":"lKp9V","./footer":"kJmo7","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lKp9V":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$4371 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$4371.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4371.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouter = require("react-router");
-const dataStructures = [
-    {
-        name: "Sorting",
-        tag: "Sorting Algorithms",
-        path: "/sorting",
-        image: "	https://dsavisualization.com/static/media/sorts.facf86ca90c2983f82d2.webp"
-    },
-    {
-        name: "Searching",
-        tag: "Searching Algorithms",
-        path: "/searching",
-        image: "https://dsavisualization.com/static/media/searching.b32766908a75e93ec43d.webp"
-    },
-    {
-        name: "Array",
-        tag: "Arrays",
-        path: "/array",
-        image: "https://dsavisualization.com/static/media/arrays.3a7b139d496811eb2dbf.webp"
-    },
-    {
-        name: "Linked List",
-        tag: "Linked Lists",
-        path: "/linkedlist",
-        image: "https://dsavisualization.com/static/media/linkedlists.aedfc9c27769b3b54f93.webp"
-    },
-    {
-        name: "Stack",
-        tag: "Stacks",
-        path: "/stack",
-        image: "https://dsavisualization.com/static/media/stack.4d8d5f7066e06a0867f7.webp"
-    },
-    {
-        name: "Queue",
-        tag: "Queues",
-        path: "/queue",
-        image: "https://dsavisualization.com/static/media/queue.0891dd468993135c5685.webp"
-    },
-    {
-        name: "Tree",
-        tag: "Trees",
-        path: "/tree",
-        image: "https://dsavisualization.com/static/media/trees.11c2a6e680cca61793a0.webp"
-    },
-    {
-        name: "Graph",
-        tag: "Graphs",
-        path: "/graph",
-        image: "https://dsavisualization.com/static/media/graphs.70ba8e9e76697a49c82c.webp"
-    }
-];
-function VisualizationCard({ element }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-        to: element.path,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition duration-300 ease-in-out text-center w-full h-[300] flex flex-col items-center",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: element.image,
-                    alt: element.name,
-                    className: "object-cover h-[200]"
-                }, void 0, false, {
-                    fileName: "src/components/Home/Tools.js",
-                    lineNumber: 28,
-                    columnNumber: 11
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    className: "text-lg font-semibold text-gray-800 mb-1",
-                    children: element.name
-                }, void 0, false, {
-                    fileName: "src/components/Home/Tools.js",
-                    lineNumber: 33,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-sm text-gray-500",
-                    children: element.tag
-                }, void 0, false, {
-                    fileName: "src/components/Home/Tools.js",
-                    lineNumber: 34,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Home/Tools.js",
-            lineNumber: 27,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Home/Tools.js",
-        lineNumber: 26,
-        columnNumber: 5
-    }, this);
-}
-_c = VisualizationCard;
-function Tool() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6",
-        children: dataStructures.map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(VisualizationCard, {
-                element: element
-            }, index, false, {
-                fileName: "src/components/Home/Tools.js",
-                lineNumber: 44,
-                columnNumber: 9
-            }, this))
-    }, void 0, false, {
-        fileName: "src/components/Home/Tools.js",
-        lineNumber: 42,
-        columnNumber: 5
-    }, this);
-}
-_c1 = Tool;
-exports.default = Tool;
-var _c, _c1;
-$RefreshReg$(_c, "VisualizationCard");
-$RefreshReg$(_c1, "Tool");
-
-  $parcel$ReactRefreshHelpers$4371.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kJmo7":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$02be = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$02be.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$02be.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-function Footer() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-        className: "bg-gray-50 w-full py-10 mt-20 border-t border-gray-200",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "max-w-4xl mx-auto px-4 text-center",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "text-xl font-semibold text-gray-800",
-                    children: "Vikki Gupta"
-                }, void 0, false, {
-                    fileName: "src/components/Home/footer.js",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-gray-600 mt-2",
-                    children: "Aspiring Web Developer | Passionate about UI/UX and React"
-                }, void 0, false, {
-                    fileName: "src/components/Home/footer.js",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "mt-6 flex justify-center space-x-6",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "https://github.com/",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "text-gray-500 hover:text-black",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "sr-only",
-                                    children: "GitHub"
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/footer.js",
-                                    lineNumber: 12,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                    className: "h-6 w-6",
-                                    fill: "currentColor",
-                                    viewBox: "0 0 24 24",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        fillRule: "evenodd",
-                                        clipRule: "evenodd",
-                                        d: "M12 2C6.48...Z"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Home/footer.js",
-                                        lineNumber: 14,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/footer.js",
-                                    lineNumber: 13,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Home/footer.js",
-                            lineNumber: 11,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "https://linkedin.com/",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "text-gray-500 hover:text-blue-600",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "sr-only",
-                                    children: "LinkedIn"
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/footer.js",
-                                    lineNumber: 18,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                    className: "h-6 w-6",
-                                    fill: "currentColor",
-                                    viewBox: "0 0 24 24",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        d: "M19 0h-14c-2.76..."
-                                    }, void 0, false, {
-                                        fileName: "src/components/Home/footer.js",
-                                        lineNumber: 20,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/footer.js",
-                                    lineNumber: 19,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Home/footer.js",
-                            lineNumber: 17,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "mailto:your.email@example.com",
-                            className: "text-gray-500 hover:text-red-500",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "sr-only",
-                                    children: "Email"
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/footer.js",
-                                    lineNumber: 24,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                    className: "h-6 w-6",
-                                    fill: "currentColor",
-                                    viewBox: "0 0 24 24",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                        d: "M2 4a2 2 0 0 1..."
-                                    }, void 0, false, {
-                                        fileName: "src/components/Home/footer.js",
-                                        lineNumber: 26,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/Home/footer.js",
-                                    lineNumber: 25,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Home/footer.js",
-                            lineNumber: 23,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Home/footer.js",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-gray-400 text-sm mt-6",
-                    children: [
-                        "\xa9 ",
-                        new Date().getFullYear(),
-                        " Vikki Gupta. All rights reserved."
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Home/footer.js",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Home/footer.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Home/footer.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = Footer;
-exports.default = Footer;
-var _c;
-$RefreshReg$(_c, "Footer");
-
-  $parcel$ReactRefreshHelpers$02be.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["4zrgg","a0t4e"], "a0t4e", "parcelRequired020", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router":"2jawN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["4zrgg","a0t4e"], "a0t4e", "parcelRequired020", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=dsavis.8d9479f5.js.map
