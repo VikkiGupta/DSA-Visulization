@@ -2,8 +2,7 @@
 
 An interactive web application built with *React* to visualize Data Structures and Algorithms (DSA). This tool helps students and developers understand how different algorithms work step-by-step through clean graphical animations.
 
-🌐 *Live Demo:* [dsa-visulization-ei7r.vercel.app](https://dsa-visulization-ei7r.vercel.app)
-
+🌐 *Live Demo:* [dsa-visulization-ei7r.vercel.app](dsa-visulization-git-main-vikki-guptas-projects.vercel.app)
 ---
 
 ## 🚀 Key Features
